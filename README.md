@@ -6,9 +6,11 @@
 
 
 
-<div>
-
+<div id="graph>
   <h2>Grafos</h2>
+  <p>
+    Grafo é uma estrutura de dados usada para representar relacionamentos entre objetos. Ele é composto por dois elementos principais
+  </p>
 </div>
 
 
