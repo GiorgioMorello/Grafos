@@ -1,20 +1,25 @@
  
-<div>
-
+<div id="initial">
   <h1>Sistema de Grafos em Python e algoritmos de buscas</h1>
 </div>
 
 
+<div>
+ <h2>Grafos</h2>
+ <p>
+  Um grafo é uma estrutura de dados usada para representar relacionamentos entre objetos. Ele é composto por dois elementos principais: <br>
+  1º <b>Vértices</b>(ou nós), que são os elementos do grafo, onde cada vértice pode representar um objeto, cidade ou pessoa.<br>
+  2º <b>Arestas</b>, são as relações entre os vértices, elas indicam como os vértices estão relacionados uns aos outros.<br>
+  <br>
+  Nesse projeto foi utilizado como grafo um mapa das cidades da Romênia. O objetivo sera iniciar em Arad e chegar em Bucharest utilizando algoritmos de buscas.
 
-<div id="graph>
-  <h2>Grafos</h2>
-  <p>
-    Grafo é uma estrutura de dados usada para representar relacionamentos entre objetos. Ele é composto por dois elementos principais
-  </p>
+  <img src="https://github.com/user-attachments/assets/3499e939-a848-4c90-af34-680bdc131566">
+
+ </p>
 </div>
 
 
-
+ 
 <div>
   <h2>Algoritmos de Buscas</h2>
   
