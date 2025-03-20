@@ -85,5 +85,3 @@ class Grafo:
     bucharest.adiciona_adjacente(Adjacente(pitesti, 101))
     bucharest.adiciona_adjacente(Adjacente(giurgiu, 90))
 
-    def __len__(self):
-        return len([d for d in self.__dir__() if not d.startswith('__')])
