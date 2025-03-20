@@ -5,8 +5,8 @@ class FilaCircular:
 
     def __init__(self, capacidade):
         self.capacidade = capacidade
-        self.inicio = 0  # Quem vai ser atendido primeiro
-        self.fim = -1  # Ultimo a ser atendido
+        self.inicio = 0  
+        self.fim = -1 
         self.numero_elementos = 0
         self.valores = np.empty(self.capacidade, dtype=object)
 
@@ -35,7 +35,7 @@ class FilaCircular:
             return
 
         temp = self.valores[self.inicio]
-        self.inicio += 1  # Movendo para o próximo item
+        self.inicio += 1  
         if self.inicio == self.capacidade:  
             self.inicio = 0
         self.numero_elementos -= 1
